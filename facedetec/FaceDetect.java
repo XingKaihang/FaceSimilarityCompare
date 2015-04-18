@@ -94,7 +94,7 @@ public class FaceDetect extends Configured implements Tool {
                 // Emit record to reducer
                 context.write(new Text("jay.jpg"), new Text(path + "," + lastline));
 
-                //file.delete();
+                file.delete();
 
             }//if
 
