@@ -6,3 +6,6 @@ The Environment and deploy method is quite similar to https://github.com/XingKai
 * Usage: (under hipi root directory) use command: hadoop jar facedetec/facedetec.jar [HIB NAME] [OUTPUT DIR]
 
 * Attention: we have hard code the image path, temporary directory, you need to adjust some code based on your requirements.
+
+
+you can find some face records from https://github.com/XingKaihang/FindFaceImage
